@@ -1,1 +1,61 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-info {
+            margin-bottom: 10px;
+        }
+        .project-info strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Project Showcase</h1>
+        <div class="project-info">
+            <strong>Name:</strong> <span id="name">John Doe</span>
+        </div>
+        <div class="project-info">
+            <strong>Student Number:</strong> <span id="student-number">20092433</span>
+        </div>
+        <div class="project-info">
+            <strong>Academic Title:</strong> <span id="academic-title">Bachelor of Computer Science</span>
+        </div>
+        <div class="project-info">
+            <strong>Commercial Title:</strong> <span id="commercial-title">OSPF_EIGRP_Evaluation</span>
+        </div>
+        <div class="project-info">
+            <strong>Project Description:</strong> <p id="project-description">Performance evaulation of OSPF and EIGRP Routing Protocols </p>
+        </div>
+        <div class="project-info">
+            <strong>Image:</strong>
+            <img id="project-image" src="image.png" alt="Project Image" class="project-image">
+        </div>
+        <div class="project-info">
+            <strong>Project Landing Page:</strong> <a id="project-link" href="#">Visit Project</a>
+        </div>
+    </div>
+</body>
+</html>
